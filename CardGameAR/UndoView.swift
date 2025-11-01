@@ -20,7 +20,7 @@ struct UndoView: View {
         } label: {
             Text("Undo")
         }
-        .buttonStyle(.borderedProminent)
+        .buttonStyle(.glassProminent)
         .onReceive(gameState) { gameState in
             if case let .inGame(state) = gameState {
                 if case let .selectedInteractionType(playerId, _, cardValue) = state {

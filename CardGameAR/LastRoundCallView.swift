@@ -20,7 +20,7 @@ struct LastRoundCallView: View {
         } label: {
             Text("CABO")
         }
-        .buttonStyle(.borderedProminent)
+        .buttonStyle(.glassProminent)
         .onReceive(gameState) { gameState in
             if case let .inGame(state) = gameState {
                 if case let .selectedInteractionType(playerId, _, _) = state {

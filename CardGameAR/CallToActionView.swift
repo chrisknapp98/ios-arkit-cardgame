@@ -36,15 +36,16 @@ struct CallToActionView: View {
                 .multilineTextAlignment(.center)
                 .foregroundColor(.white)
                 .padding()
-                .background(
-                    GeometryReader { proxy in
-                        Rectangle()
-                            .cornerRadius(proxy.size.height/2)
-                            .foregroundColor(.black)
-                            .opacity(0.25)
-                            .blur(radius: 20, opaque: false)
-                    }
-                )
+                .glassEffect()
+            //                .background(
+            //                    GeometryReader { proxy in
+            //                        Rectangle()
+            //                            .cornerRadius(proxy.size.height/2)
+            //                            .foregroundColor(.black)
+            //                            .opacity(0.25)
+            //                            .blur(radius: 20, opaque: false)
+            //                    }
+            //                )
             if !lastRoundText.isEmpty {
                 Text(lastRoundText)
                     .font(.title3)
@@ -52,15 +53,7 @@ struct CallToActionView: View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(.red)
                     .padding()
-                    .background(
-                        GeometryReader { proxy in
-                            Rectangle()
-                                .cornerRadius(proxy.size.height/2)
-                                .foregroundColor(.black)
-                                .opacity(0.25)
-                                .blur(radius: 20, opaque: false)
-                        }
-                    )
+                    .glassEffect()
             } else if lastRoundText.isEmpty == wasLastRound {
                 Button {
                     reset()
@@ -68,7 +61,7 @@ struct CallToActionView: View {
                     Text("Play Again")
                         .padding()
                 }
-                .buttonStyle(.borderedProminent)
+                .buttonStyle(.glassProminent)
                 .padding()
             }
             Spacer()
@@ -118,7 +111,7 @@ struct CallToActionView: View {
             Text(interactionType.displayText)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .buttonStyle(.borderedProminent)
+        .buttonStyle(.glassProminent)
         .disabled(isPerformActionInteractionType && cardAction == nil)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
