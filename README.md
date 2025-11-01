@@ -40,7 +40,7 @@ This version supports **Pass & Play** mode, allowing players to take turns on th
 
 > Recorded on an iPhone 11 (without LiDAR sensor).
 
-![Watch the Video](docs/showcase.mp4)
+[![Watch the video](https://img.youtube.com/vi/W6DncKICjVk/maxresdefault.jpg)](https://youtu.be/W6DncKICjVk)
 
 ---
 
