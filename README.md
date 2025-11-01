@@ -34,13 +34,13 @@ This version supports **Pass & Play** mode, allowing players to take turns on th
 
 ---
 
-## 📹 Demo Video
+## Demo Video
 
 **5-Minute Showcase**
 
 > Recorded on an iPhone 11 (without LiDAR sensor).
 
-![](docs/showcase.mp4)
+![Watch the Video](docs/showcase.mp4)
 
 ---
 
