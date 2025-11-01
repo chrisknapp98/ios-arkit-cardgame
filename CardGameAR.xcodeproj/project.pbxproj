@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC646535CBE397E3554A50DA /* Pods_CardGameAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F434960BF18295101EE0A0 /* Pods_CardGameAR.framework */; };
 		F3020EE029F5927F0011F0CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3020EDF29F5927F0011F0CB /* AppDelegate.swift */; };
 		F3020EE229F5927F0011F0CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3020EE129F5927F0011F0CB /* ViewController.swift */; };
 		F3020EE429F5927F0011F0CB /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F3020EE329F5927F0011F0CB /* Experience.rcproject */; };
@@ -84,9 +83,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		34680C9C3B2487F0D2E7C3D0 /* Pods-CardGameAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardGameAR.debug.xcconfig"; path = "Target Support Files/Pods-CardGameAR/Pods-CardGameAR.debug.xcconfig"; sourceTree = "<group>"; };
-		585FB7BEACBEBB1974251C7F /* Pods-CardGameAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardGameAR.release.xcconfig"; path = "Target Support Files/Pods-CardGameAR/Pods-CardGameAR.release.xcconfig"; sourceTree = "<group>"; };
-		62F434960BF18295101EE0A0 /* Pods_CardGameAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardGameAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3020EDC29F5927F0011F0CB /* CardGameAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGameAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3020EDF29F5927F0011F0CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3020EE129F5927F0011F0CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,7 +165,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D399CC2A48DDD1009B6A77 /* Metal.framework in Frameworks */,
-				BC646535CBE397E3554A50DA /* Pods_CardGameAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,18 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				F3D399CB2A48DDD1009B6A77 /* Metal.framework */,
-				62F434960BF18295101EE0A0 /* Pods_CardGameAR.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		737724E9C2CA645857E591D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				34680C9C3B2487F0D2E7C3D0 /* Pods-CardGameAR.debug.xcconfig */,
-				585FB7BEACBEBB1974251C7F /* Pods-CardGameAR.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		F3020ED329F5927F0011F0CB = {
@@ -199,7 +184,6 @@
 			children = (
 				F3020EDE29F5927F0011F0CB /* CardGameAR */,
 				F3020EDD29F5927F0011F0CB /* Products */,
-				737724E9C2CA645857E591D6 /* Pods */,
 				38780F1C2FD3E770B176A416 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -354,7 +338,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3020EEF29F592800011F0CB /* Build configuration list for PBXNativeTarget "CardGameAR" */;
 			buildPhases = (
-				48D2D61B68D8474FF1C66B4A /* [CP] Check Pods Manifest.lock */,
 				F3020ED829F5927F0011F0CB /* Sources */,
 				F3020ED929F5927F0011F0CB /* Frameworks */,
 				F3020EDA29F5927F0011F0CB /* Resources */,
@@ -468,31 +451,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		48D2D61B68D8474FF1C66B4A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CardGameAR-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3020ED829F5927F0011F0CB /* Sources */ = {
@@ -646,7 +604,6 @@
 		};
 		F3020EF029F592800011F0CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34680C9C3B2487F0D2E7C3D0 /* Pods-CardGameAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -677,7 +634,6 @@
 		};
 		F3020EF129F592800011F0CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 585FB7BEACBEBB1974251C7F /* Pods-CardGameAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
