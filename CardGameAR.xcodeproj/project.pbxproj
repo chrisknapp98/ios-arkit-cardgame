@@ -19,9 +19,7 @@
 		F32AF1C92A30B8E4005F95FA /* SequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32AF1C82A30B8E4005F95FA /* SequenceExtension.swift */; };
 		F35040E82A431FD100117BF2 /* DrawPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35040E72A431FD100117BF2 /* DrawPile.swift */; };
 		F35040EA2A43952600117BF2 /* CardGameError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35040E92A43952600117BF2 /* CardGameError.swift */; };
-		F35A49812A0BBFFC00635215 /* Playing_Cards_Standard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F35A49802A0BBFFC00635215 /* Playing_Cards_Standard.usdz */; };
 		F35A49832A0BCA8600635215 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35A49822A0BCA8600635215 /* PlayingCard.swift */; };
-		F37111E22A278291003F53F4 /* Playing_Cards.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F37111E12A278291003F53F4 /* Playing_Cards.usdz */; };
 		F37248372A1E348100580BC6 /* Playing_Card_Blue_C_5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F372482A2A1E348000580BC6 /* Playing_Card_Blue_C_5.usdz */; };
 		F37248382A1E348100580BC6 /* Playing_Card_Blue_C_3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F372482B2A1E348000580BC6 /* Playing_Card_Blue_C_3.usdz */; };
 		F37248392A1E348100580BC6 /* Playing_Card_Blue_C_7.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F372482C2A1E348100580BC6 /* Playing_Card_Blue_C_7.usdz */; };
@@ -96,9 +94,7 @@
 		F32AF1C82A30B8E4005F95FA /* SequenceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceExtension.swift; sourceTree = "<group>"; };
 		F35040E72A431FD100117BF2 /* DrawPile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPile.swift; sourceTree = "<group>"; };
 		F35040E92A43952600117BF2 /* CardGameError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameError.swift; sourceTree = "<group>"; };
-		F35A49802A0BBFFC00635215 /* Playing_Cards_Standard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Playing_Cards_Standard.usdz; sourceTree = "<group>"; };
 		F35A49822A0BCA8600635215 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
-		F37111E12A278291003F53F4 /* Playing_Cards.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Playing_Cards.usdz; sourceTree = "<group>"; };
 		F372482A2A1E348000580BC6 /* Playing_Card_Blue_C_5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Playing_Card_Blue_C_5.usdz; sourceTree = "<group>"; };
 		F372482B2A1E348000580BC6 /* Playing_Card_Blue_C_3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Playing_Card_Blue_C_3.usdz; sourceTree = "<group>"; };
 		F372482C2A1E348100580BC6 /* Playing_Card_Blue_C_7.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Playing_Card_Blue_C_7.usdz; sourceTree = "<group>"; };
@@ -223,9 +219,7 @@
 		F3020EF229F5BAC70011F0CB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F37111E12A278291003F53F4 /* Playing_Cards.usdz */,
 				F37247182A17DBC000580BC6 /* Blue */,
-				F35A49802A0BBFFC00635215 /* Playing_Cards_Standard.usdz */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -395,7 +389,6 @@
 				F37248702A1E34A500580BC6 /* Playing_Card_Blue_H_K.usdz in Resources */,
 				F37248922A1E34C000580BC6 /* Playing_Card_Blue_S_7.usdz in Resources */,
 				F37248572A1E349000580BC6 /* Playing_Card_Blue_D_A.usdz in Resources */,
-				F37111E22A278291003F53F4 /* Playing_Cards.usdz in Resources */,
 				F37248562A1E349000580BC6 /* Playing_Card_Blue_D_5.usdz in Resources */,
 				F37248582A1E349000580BC6 /* Playing_Card_Blue_D_7.usdz in Resources */,
 				F372488D2A1E34C000580BC6 /* Playing_Card_Blue_S_J.usdz in Resources */,
@@ -441,7 +434,6 @@
 				F372486B2A1E34A500580BC6 /* Playing_Card_Blue_H_6.usdz in Resources */,
 				F372488F2A1E34C000580BC6 /* Playing_Card_Blue_S_5.usdz in Resources */,
 				F37248592A1E349000580BC6 /* Playing_Card_Blue_D_9.usdz in Resources */,
-				F35A49812A0BBFFC00635215 /* Playing_Cards_Standard.usdz in Resources */,
 				F37248412A1E348100580BC6 /* Playing_Card_Blue_C_A.usdz in Resources */,
 				F37248712A1E34A500580BC6 /* Playing_Card_Blue_H_9.usdz in Resources */,
 				F372485A2A1E349000580BC6 /* Playing_Card_Blue_D_4.usdz in Resources */,
